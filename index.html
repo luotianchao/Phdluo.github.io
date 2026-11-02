@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="luotianchao 的学习笔记、项目记录与资料归档。" />
+    <title>知行｜luotianchao 的学习博客</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Serif+SC:wght@500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="返回首页"><span class="brand-mark">Z</span><span>知行</span></a>
+      <nav aria-label="主导航">
+        <a href="#notes">笔记</a>
+        <a href="#library">资料库</a>
+        <a href="#about">关于我</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="切换主题"><span aria-hidden="true">☼</span></button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <p class="eyebrow">PERSONAL KNOWLEDGE GARDEN · 2026</p>
+        <h1>把学习，<br /><em>沉淀成自己的宇宙。</em></h1>
+        <p class="hero-copy">这里收录我的学习笔记、实践复盘与值得反复查阅的资料。愿每一次记录，都能通向更清晰的理解。</p>
+        <div class="hero-actions"><a class="button" href="#notes">开始阅读 <span>↓</span></a><a class="text-link" href="#about">认识作者 →</a></div>
+        <div class="hero-orbit" aria-hidden="true"><span>思考</span><span>实践</span><span>分享</span></div>
+      </section>
+
+      <section class="section notes" id="notes">
+        <div class="section-heading"><div><p class="eyebrow">LATEST NOTES</p><h2>最近更新</h2></div><a class="text-link" href="posts/">浏览全部文章 →</a></div>
+        <div class="article-grid">
+          <a class="article featured" href="posts/getting-started.html"><p class="article-meta">置顶 · 2026.11.02</p><h3>我的知识库，从这一页开始</h3><p>为这座个人数字花园建立第一条路径：记录、整理与持续生长。</p><span class="read-more">阅读文章 <b>→</b></span></a>
+          <a class="article" href="posts/learning-system.html"><p class="article-meta">学习方法 · 2026.10.28</p><h3>如何建立一个真正能坚持的学习系统</h3><span class="read-more">阅读文章 <b>→</b></span></a>
+          <a class="article" href="posts/project-notes.html"><p class="article-meta">项目复盘 · 2026.10.15</p><h3>把项目经验变成可复用的方法</h3><span class="read-more">阅读文章 <b>→</b></span></a>
+        </div>
+      </section>
+
+      <section class="section library" id="library">
+        <div class="section-heading"><div><p class="eyebrow">RESOURCE LIBRARY</p><h2>资料库</h2></div><p class="section-intro">公开整理的学习素材、模板和工具清单。<br />文件会持续补充。</p></div>
+        <div class="resource-list">
+          <a href="assets/README.md" class="resource"><span class="file-type">MD</span><span><strong>资料库使用说明</strong><small>如何添加和管理你的资料文件</small></span><span class="resource-arrow">↗</span></a>
+          <a href="assets/index.html" class="resource"><span class="file-type">DIR</span><span><strong>学习资料与附件</strong><small>讲义、模板、代码及其他可下载文件</small></span><span class="resource-arrow">↗</span></a>
+        </div>
+      </section>
+
+      <section class="about" id="about"><p class="eyebrow">ABOUT ME</p><h2>你好，我是 <em>luotianchao。</em></h2><p>一个持续学习、乐于记录的人。这是我的网络笔记本，也是与世界交换想法的小小窗口。</p><a class="text-link" href="mailto:2041162301@qq.com">写封邮件给我 →</a></section>
+    </main>
+
+    <footer><a class="brand" href="#top"><span class="brand-mark">Z</span><span>知行</span></a><p>© <span id="year"></span> luotianchao · 用 GitHub Pages 构建</p><a href="#top" class="back-top">回到顶部 ↑</a></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
